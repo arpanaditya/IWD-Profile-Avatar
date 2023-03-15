@@ -139,7 +139,7 @@ const canvas = document.querySelector("canvas");
     const download = () => {
       const a = document.createElement("a");
       const url = canvas.toDataURL("image/png;base64");
-      a.download = "Hacker.png";
+      a.download = "IWD-Badge.png";
       a.href = url;
 
       a.click();
